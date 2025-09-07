@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, #90d6f1, #4990ac);
     min-height: 100vh; /* Garante que o fundo ocupe toda a tela */
+}
 
 img {
     width: 200px;
@@ -107,4 +109,53 @@ a:hover .youtube {
     background-size: 30px 30px;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    img {
+        width: 120px;
+        height: 130px;
+        margin-top: 20px;
+    }
 
+    h2 {
+        width: 90%;
+        min-width: 0;
+        font-size: 1rem;
+        height: auto;
+        padding: 10px 0 10px 55px;
+        margin: 20px auto;
+        line-height: normal;
+        border-radius: 15px;
+        word-break: break-word;
+    }
+
+    h1, h6 {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+
+    body {
+        padding: 0 5px;
+    }
+
+    .whatsapp,
+    .instagram,
+    .facebook,
+    .github,
+    .youtube {
+        background-position: 10px center;
+        background-size: 24px 24px;
+    }
+}
+
+/* Ajuste para telas muito pequenas */
+@media (max-width: 400px) {
+    h2 {
+        font-size: 0.95rem;
+        padding-left: 40px;
+    }
+    img {
+        width: 90px;
+        height: 100px;
+    }
+}
