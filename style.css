@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, #90d6f1, #4990ac);
+    min-height: 100vh; /* Garante que o fundo ocupe toda a tela */
+
+img {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    display: block;
+    margin: 40px auto 0 auto; /* 40px de espaço no topo */
+}
+
+h1 {
+    text-align: center;
+    font-weight:100;
+    color: white;
+    margin-bottom: 0;
+}
+
+h6 {
+    text-align: center;
+    font-weight: 100;
+    margin: 1px auto 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    width: 500px;
+    height: 45px;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    line-height: 45px; /* Centraliza verticalmente o texto */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover h2 {
+    background-color: rgb(14, 153, 153);
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.2s;
+
+
+}
+
+a:hover .whatsapp {
+    background-color: #25D366; /* Cor verde do WhatsApp */
+}
+
+a:hover .instagram {
+    background-color: #E1306C; /* Cor rosa do Instagram */
+}
+
+a:hover .facebook {
+    background-color: #3b5998;
+}
+
+a:hover .github {
+    background-color: #333; /* Cor preta do GitHub */
+}
+
+a:hover .youtube {
+    background-color: #FF0000; /* Cor vermelha do YouTube */
+}
+
+.whatsapp {
+    background-image: url(imagens/whatsappicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px 30px;
+}
+
+.instagram {
+    background-image: url(imagens/instagramicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px 30px;
+}
+
+.facebook {
+    background-image: url(imagens/facebookicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px 30px;
+}
+
+.github {
+    background-image: url(imagens/githubicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px 30px;
+}
+
+.youtube {
+    background-image: url(imagens/youtubeicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px 30px;
+}
+
+
